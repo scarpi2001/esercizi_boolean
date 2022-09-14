@@ -1,0 +1,78 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-color: black;
+}
+
+header{
+  text-align: center;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  margin: auto;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.logo{
+  width: 25%;
+  height: 25%;
+}
+
+header > h1{
+  font-size: 30px;
+  color: #00FF00;
+  font-family: roboto;
+}
+
+nav > div{
+  background-color: #00FF00;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+main{
+  margin-left: 5%;
+}
+
+main h2{
+  font-family: roboto;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+main span{
+  font-family: roboto;
+  font-size: 15px;
+  color: lightgrey;
+}
+
+.freccia:after{
+  content: "\21A6";
+}
+
+.media, .lunga, .corta{
+  height: 25px;
+  border-radius: 5px;
+}
+
+.media{
+  background-color: orange;
+  width: 35%;
+}
+
+.lunga{
+  background-color: green;
+  width: 60%;
+}
+.corta{
+  background-color: red;
+  width: 15%;
+}
